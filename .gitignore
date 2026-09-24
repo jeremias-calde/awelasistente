@@ -1,0 +1,17 @@
+# Secretos: se crea a mano en cada máquina
+.env
+
+# Biblioteca de música (vive en el pendrive / carpeta local, nunca en git)
+musica/
+*.mp3
+
+# Grabaciones de prueba
+grabaciones/
+
+# Python / uv
+.venv/
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store

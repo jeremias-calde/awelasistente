@@ -1,0 +1,19 @@
+[project]
+name = "awelasistente"
+version = "0.1.0"
+description = "Asistente de voz con botón para la abuela"
+authors = [
+    { name = "jeremias-calde", email = "jeremias@puente.xyz" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2.5.3",
+    "sounddevice>=0.5.6",
+]
+
+[project.scripts]
+awelasistente = "awelasistente.main:main"
+
+[build-system]
+requires = ["uv_build>=0.11.28,<0.12.0"]
+build-backend = "uv_build"

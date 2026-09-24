@@ -1,0 +1,10 @@
+# Configuración para desarrollar en la Mac.
+# La Pi tendrá su propio pi.toml; el código es el mismo, cambia solo esto.
+
+[trigger]
+tipo = "teclado"   # "teclado" (Mac) | "gpio" (Pi)
+
+[audio]
+sample_rate = 16000   # 16 kHz mono: lo que espera Whisper, y pesa poco al subirlo
+canales = 1
+carpeta_grabaciones = "grabaciones"
